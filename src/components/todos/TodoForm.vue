@@ -7,7 +7,7 @@ const emit = defineEmits(["add-todo"]);
 
 const addTodo = () => {
   emit("add-todo", inputValue.value);
-  inputValue.value = '';
+  inputValue.value = "";
 };
 </script>
 
